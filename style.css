@@ -1,3 +1,49 @@
 html{
     background: #2C2C2B;
 }
+
+#bandit-full{
+    background: #778ae5;
+    height: 300px;
+    width: 400px;
+    border-radius: 45px;
+    margin: auto;
+    margin-top: 10%;
+}
+
+#slot-screen{
+    display: flex;
+    height: 300px;
+}
+
+.slot{
+    background: #e8e9ed;
+    height: 240px;
+    width: 110px;
+    z-index: 4;
+    border-radius: 25px;
+    margin: auto;
+}
+
+#bet{
+    margin-left: 21%;
+    margin-top: 10%;
+    background-color: #ff6161;
+    text-align: center;
+    color: #fff;
+    width: 250px;
+    height: 50px;
+    font-size: 14pt;
+    letter-spacing: 1.1pt;
+    border-width: 0;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#bet:hover{
+    box-shadow: 0 0 5px rgba(255, 255, 255, 0.4);
+}
+
+#bet:active{
+    box-shadow: inset 2px 2px 3px rgba(0, 0, 0, 0.6);
+}
