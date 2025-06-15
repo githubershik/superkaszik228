@@ -2,13 +2,20 @@ html{
     background: #2C2C2B;
 }
 
+#bandit-header{
+    color: white;
+    margin-top: 3%;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
 #bandit-full{
     background: #778ae5;
     height: 300px;
     width: 400px;
     border-radius: 45px;
     margin: auto;
-    margin-top: 10%;
+    margin-top:3%;
 }
 
 #slot-screen{
@@ -19,9 +26,19 @@ html{
 .slot{
     background: #e8e9ed;
     height: 240px;
-    width: 110px;
+    width: 120px;
     z-index: 4;
     border-radius: 25px;
+    margin: auto;
+    display: grid;
+
+}
+
+.slot-img{
+    height: 70px;
+    width: 90px;
+    display: inline-grid;
+    grid-template-rows: 250px 10vw 15rem;
     margin: auto;
 }
 
