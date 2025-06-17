@@ -40,6 +40,24 @@ html{
     display: inline-grid;
     grid-template-rows: 250px 10vw 15rem;
     margin: auto;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.inSlotText{
+    width: 90px;
+    height: 70px;
+    text-align: center;
+    vertical-align: middle;
+    padding-top: 25%;
+}
+
+#slot-img-center{
+    border-top: grey solid 1px;;
+}
+
+#slot-img-bot{
+    border-top: grey solid 1px;;
 }
 
 #bet{
